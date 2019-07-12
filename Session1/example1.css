@@ -1,0 +1,17 @@
+.Box1{
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	float: left;
+	border: 1px solid black;
+}
+.Box2{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-color: white;
+	border: 1px solid black;
+}
+br{
+	line-height: 43px;
+}

@@ -18,7 +18,7 @@
 		}
 
 		public function addNews($name, $description, $date, $image) {
-			$sql = "INSERT INTO news (name, description, date , image) VALUES ('$name', '$description', $date, '$image')";
+			$sql = "INSERT INTO news (name, description, date, image) VALUES ('$name', '$description', '$date', '$image')";
 			return mysqli_query($this->connect(), $sql);
 		}
 		public function getNews($id) {

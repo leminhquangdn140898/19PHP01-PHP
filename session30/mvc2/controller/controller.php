@@ -30,7 +30,7 @@
 					if (isset($_POST['add_news_form'])) {
 						$name = $_POST['name'];
 						$description = $_POST['description'];
-						$date = $_POST['date'];
+						$date = date('Y-m-d h:i:s');
 						$image = 'default.jpg';
 						// save vao database
 						if ($model->addNews($name, $description, $date, $image) === TRUE) {

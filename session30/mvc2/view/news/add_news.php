@@ -6,11 +6,11 @@
 	<p>Description
 		<textarea name="description" rows="8"></textarea>
 	</p>
-	<p>Date Submitted
+	<!-- <p>Date Submitted
 		<input type="text" name="date">
-	</p>
-	<p>Image
+	</p> -->
+	<!-- <p>Image
 		<input type="Image" name="image_news">
-	</p>
-	<p><input type="submit" name="add_product_form" value="Add product"></p>
+	</p> -->
+	<p><input type="submit" name="add_news_form" value="Add news"></p>
 </form>
